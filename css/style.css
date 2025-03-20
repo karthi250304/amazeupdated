@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+html {
+  font-size: 14px;
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f8f9fa; /* Light Gray background */
+  color: #495057; /* Dark Gray Text */
+}
+a {
+  text-decoration: none;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 60vh;
+  object-position: top;
+  overflow: hidden;
+}
+
+.old_price {
+  font-weight: bold;
+  color: red;
+}
+
+.new_price {
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+.pic-box {
+  position: relative;
+}
+
+.hot {
+  background-color: orangered;
+  color: white;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+  display: inline;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  z-index: 10;
+}
+
+
+nav.navbar .nav-link:hover {
+  color: #ffffff; /* White text */
+  background-color: #6c757d; /* Grey background on hover */
+}
